@@ -5,12 +5,14 @@ import java.awt.*;
 
 public class Main {
     public static void main(String[] args) {
+
         JFrame application = createGui();
         application.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         application.setVisible(true);
 
     }
 
+    
     private static JFrame createGui() {
         JTextField input = new JTextField();
         input.setPreferredSize(new Dimension(300,40));
